@@ -5,6 +5,6 @@ jdk:
 
 before_script:
   - mvn pmd:check --batch-mode --fail-never
-  - mvn pmd:cpd-check --fail-never
+  - mvn pmd:cpd-check
   - cat target/pmd.xml
-  - cat target/cpd.xml
+
